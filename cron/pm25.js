@@ -4,8 +4,8 @@ var dateFormat = require('dateformat');
 var ALY = require('aliyun-sdk');
 
 var memcached = ALY.MEMCACHED.createClient(11211, 'e20c6c4640ce11e4.m.cnbjalicm12pub001.ocs.aliyuncs.com', {
-	username: 'e20c6c4640ce11e4', 
-	password: '1234ABcd'
+	username: '', 
+	password: ''
 });
 
 function task(){
