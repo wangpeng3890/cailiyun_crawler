@@ -1,0 +1,19 @@
+{
+    "name": "wei-crawler", 
+    "version": "0.0.1", 
+    "private": true,
+    "scripts": {
+      "prestart": "npm install",
+      "start": "forever start -o ./out.log -e ./err.log crawler.js"
+    },
+    "dependencies": {
+      "debug":"*",
+      "dateformat":"*",
+      "aliyun-sdk":"*",
+      "crawler":"*",
+      "cron":"*",
+      "mysql":"*",
+      "sequelize":"*",
+      "sequelize-cli":"*"
+    }
+}
